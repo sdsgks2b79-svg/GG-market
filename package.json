@@ -1,0 +1,17 @@
+{
+  "name": "gg_market_bot",
+  "version": "1.0.0",
+  "description": "Oziq-ovqat do'koni uchun professional Telegram bot",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "@supabase/supabase-js": "^2.10.0",
+    "pdfkit": "^0.13.0",
+    "openai": "^4.26.1",
+    "dotenv": "^16.3.1"
+  }
+}
