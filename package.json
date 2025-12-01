@@ -1,0 +1,15 @@
+{
+  "name": "gg-market-bot",
+  "version": "1.0.0",
+  "description": "Oziq-ovqat do'koni Telegram boti",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "@supabase/supabase-js": "^2.25.0",
+    "pdfkit": "^0.13.0"
+  }
+}
